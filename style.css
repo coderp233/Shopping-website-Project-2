@@ -1,0 +1,125 @@
+body{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+.bar{
+    overflow: auto;
+}
+.nav_container{
+    background-color:blueviolet
+}
+.nav_items{
+    list-style: none;
+    float: left;
+    padding: 2rem;
+    color: aliceblue;
+}
+.link{
+    text-decoration: none;
+    color:black
+}
+.link:hover{
+    color: tomato;
+}
+.search{
+    float: right;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+}
+.shop{
+    list-style:none;
+}
+.prodlink{
+    text-decoration: none;
+}
+.product{
+    padding-bottom: 3rem;
+}
+.sales_heading{
+    text-align: center;
+    font-weight: bolder;
+}
+.sales_subheading{
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+}
+.items{
+    float: left;
+    padding: 2rem;
+}/*
+.sales_prod{
+    padding: 1rem;
+}*/
+.sales{
+    margin-bottom: 2rem;
+}
+.sales_img{
+    border-radius: 12px;
+    transition: all 1s ease-in-out;
+}
+.sales_img:hover{
+    transform: scale(1.25);
+}
+.lochead{
+    font-weight: bolder;
+    text-align: center;
+}
+.locsubhead{
+    text-align: center;
+    font-weight: lighter;
+}
+.mapouter{
+    align-items: center;
+}
+.address{
+    text-align: center;
+}
+
+.contact_head{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+.contact_sub{
+    text-align: center;
+    font-weight: lighter;
+}
+.info{
+    padding: 2rem;
+    background-color: rgb(124, 166, 194);
+    width: 50%;
+    margin-left: 2rem;
+    border-radius: 3rem;
+}
+.input{
+    background-color: rgb(124, 166, 194);
+    border: 0;
+    outline: 0;
+}
+.submit{
+   /* background-color:rgb(216, 198, 109);*/
+    margin-left: 3rem;
+    width: 600px;
+    height: 150px;
+    font-size: 2rem;
+    border-radius: 3rem;
+    border: 2px solid black;
+    box-shadow: 12px 12px 2px gray;
+    margin-bottom: 3rem;
+}
+.submit:hover{
+    background-color: aqua;
+}
+.footer_con{
+    background-color: teal;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+.about_list,
+.help_list,
+.policy_list,
+.social_list{
+    font-size: smaller;
+}

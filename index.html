@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping website</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav_container">
+            <div class="nav_menu">
+                <ul class="bar">
+                    <li class="nav_items">
+                        <a href="#Home" class="link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                                <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                              </svg>Home
+                        </a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="./cart.html" class="link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                              </svg>Cart
+                        </a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="" class="link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                              </svg>Notifications
+                        </a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="" class="link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                              </svg>Help
+                        </a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="" class="link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                              </svg>Your Profile
+                        </a>
+                    </li>
+                     <div class="search">
+                    <input type="text" placeholder="search">
+                </div>
+                </ul>
+               
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="product">
+            <ul class="product_catalog">
+                <li class="shop">
+                    <a href="./electronics.html" class="prodlink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pc-display" viewBox="0 0 16 16">
+                            <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"/>
+                          </svg>Electronics 
+                    </a>
+                </li>
+                <li class="shop">
+                    <a href="./clothing.html" class="prodlink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                            <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                            <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                          </svg>Clothing
+                    </a>
+                </li>
+                <li class="shop">
+                    <a href="./Interior.html" class="prodlink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wrench-adjustable-circle" viewBox="0 0 16 16">
+                            <path d="M12.496 8a4.491 4.491 0 0 1-1.703 3.526L9.497 8.5l2.959-1.11c.027.2.04.403.04.61Z"/>
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1 0a7 7 0 1 0-13.202 3.249l1.988-1.657a4.5 4.5 0 0 1 7.537-4.623L7.497 6.5l1 2.5 1.333 3.11c-.56.251-1.18.39-1.833.39a4.49 4.49 0 0 1-1.592-.29L4.747 14.2A7 7 0 0 0 15 8Zm-8.295.139a.25.25 0 0 0-.288-.376l-1.5.5.159.474.808-.27-.595.894a.25.25 0 0 0 .287.376l.808-.27-.595.894a.25.25 0 0 0 .287.376l1.5-.5-.159-.474-.808.27.596-.894a.25.25 0 0 0-.288-.376l-.808.27.596-.894Z"/>
+                          </svg>Home Interior
+                    </a>
+                </li>
+                <li class="shop">
+                    <a href="./sports.html" class="prodlink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/>
+                          </svg>Sports
+                    </a>
+                </li>
+            </ul>
+            <iframe src="https://www.youtube.com/embed/7m16dFI1AF8" width="1900px" height="564px"></iframe>
+        </section>
+        <section class="sales">
+            <h1 class="sales_heading">SALES-Discounts for you</h1>
+            <h4 class="sales_subheading">Upto 30% off</h4>
+            <div class="sales_prod">
+                <div class="items">
+                    <img class="sales_img"src="https://images.unsplash.com/photo-1567581935884-3349723552ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="" width="400px" height="300px">
+                    <br>
+                    <span class="sales_imghead">Mobiles</span>
+                </div>
+                <div class="items">
+                    <img src="https://plus.unsplash.com/premium_photo-1686090448668-8a323ffc622b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="" class="sales_img"width="400px"height="300px">
+                    <br>
+                    <span class="sales_imghead">Electronics</span>
+                </div>
+                <div class="items">
+                    <img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dG95c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="" class="sales_img" width="400px" height="300px">
+                    <br>
+                    <span class="sales_imghead">Toys</span>
+                </div>
+                <div class="items">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnVybml0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="" class="sales_img" width="400px" height="300px">
+                    <br>
+                    <span class="sales_imghead">Furniture</span>
+                </div>
+                <div class="items">
+                    <img src="https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80" alt="" class="sales_img" width="400px" height="300px">
+                    <br>
+                    <span class="sales_imghead">Beauty Care</span>
+                </div>
+                <div class="items">
+                    <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2012&q=80" alt="" class="sales_img" width="400px" height="300px">
+                    <br>
+                    <span class="sales_imghead">Shoes</span>
+                </div>
+                <div class="items">
+                    <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FybWVudHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="" class="sales_img" width="400px" height="300px">
+                    <br>
+                    <span class="sales_imghead">Garments</span>
+                </div>
+                <div class="items">
+                    <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="" class="sales_img" width="400px" height="300px">
+                    <br>
+                    <span class="sales_imghead">Watch</span>
+                </div>
+            </div>
+        </section>
+        <section class="location">
+
+          <h1 class="lochead">Location</h1>
+            <h4 class="locsubhead">Kahilipara,Guwahati-12,Assam</h4>
+        <div class="map">
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="2100" height="600px" id="gmap_canvas" src="https://maps.google.com/maps?q=Kahilipara,guwahati&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:510px;width:770px;}</style><a href="https://embedgooglemap.2yu.co">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:510px;width:770px;}</style></div></div>
+            </div>
+            <div class="loc_detail">
+                <p class="address">Aspire Coplex,4th Floor,near kahilipara Police station,By lane no. 3</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h1 class="contact_head">Contact us</h1>
+            <h4 class="contact_sub">Details below</h4>
+            <form action="" class="form">
+                <div class="info">
+                <label for="name" id="">Name</label>
+                <br>
+                <input type="text" class="input" id="name">
+                </div>
+                <br>
+                <div class="info">
+                    <label for="phone" id="">Phone no</label><br>
+
+                    <input type="number" class="input" id="phone">
+                    </div>
+                    <br>
+                    <div class="info">
+                        <label for="email" id="">Email</label>
+                        <br>
+                        <input type="email" class="input" id="email">
+                        </div>
+                        <br>
+                        <div class="info">
+                            <label for="review" id="">Review</label>
+                            <br>
+                           <textarea class="input" name="" id="review" cols="40" rows="15"></textarea>
+                            </div>
+                            <br>
+                            
+                                <label for="submit"></label>
+                                <br>
+                                <input class="submit" type="submit" value="submit" id="submit" width="500px">
+                            
+                            <br>
+            </form>
+        </section>
+
+        <footer>
+             <div class="footer_con">
+                <div class="about">
+                    <h5 class="about_head">ABOUT</h5>
+                    <ul>
+                        <li class="about_list">Contact Us</li>
+                        <li class="about_list">About Us</li>
+                        <li class="about_list">Careers</li>
+                        <li class="about_list">StlyeZ Stories</li>
+                        <li class="about_list">Press</li>
+                        <li class="about_list">Stylez Wholesale</li>
+                        <li class="about_list">Press</li>
+                        <li class="about_list">Corporate information</li>
+
+                    </ul>
+                </div>
+                <div class="help">
+                    <h5 class="help_head">HELP</h5>
+                    <ul>
+                        <li class="help_list">Payments</li>
+                        <li class="help_list">Shipping</li>
+                        <li class="help_list">Cancellation and Returns</li>
+                        <li class="help_list">FAQ</li>
+                        <li class="help_list">Report Infringement</li>
+                    </ul>
+                </div>
+                <div class="consumer_policy">
+                    <h5 class="consumer_head">CONSUMER POLICY</h5>
+                    <ul>
+                        <li class="policy_list">Return Policy</li>
+                        <li class="policy_list">Terms of Use</li>
+                        <li class="policy_list">Security</li>
+                        <li class="policy_list">Privacy</li>
+                        <li class="policy_list">sitmap</li>
+                        <li class="policy_list">Grievance Redrassal</li>
+                        <li class="policy_list">EPR Compliance</li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <h5 class="social_head">SOCIAL</h5>
+                    <ul>
+                        <li class="social_list">Facebook</li>
+                        <li class="social_list">Twitter</li>
+                        <li class="social_list">Youtube</li>
+                      
+                    </ul>
+                </div>
+
+             </div>
+        </footer>
+    </main>
+</body>
+</html>

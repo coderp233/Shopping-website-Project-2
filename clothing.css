@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.cloth_nav{
+    overflow:auto;
+}
+.cloth_container{
+    background-color: blueviolet;
+}
+.clothing{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.filter{
+    box-shadow: 2px 2px 2px gray;
+    margin-right: 2rem;
+    
+}
+summary{
+    font-weight: bolder;
+    font-style: italic;
+}
+.cloth_sub{
+    font-family: cursive;
+}
+.prods_list{
+    list-style: none;
+    float: left;
+    padding: 2rem;
+    color: blue;
+}
+.prod_box{
+    margin-bottom: 4rem;}
+.nav_con{
+    color: aliceblue;
+    list-style: none;
+    float:left;
+    padding: 2rem;
+    font-size: 2rem;
+}
+.nav_con1{
+    float: right;
+    color: aliceblue;
+    list-style: none;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.cloth_items{
+    float: left;
+    padding: 3rem;
+
+    transition: all 1s ease-in-out;
+}
+.cloth_items:hover{
+    transform: scale(1.25);
+}
+.items_container{
+    box-shadow: 2px 2px 2px gray;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
